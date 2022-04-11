@@ -11,8 +11,8 @@ export class AuthController {
     @UseGuards(LocalAuthGuard)
     @Post('login')
     @HttpCode(HttpStatus.OK)
-    async login() {
-        
+    login() {
+        //await this.authService.validateUser('felipecod6@hotmail.com','cidade129')
     }
     
 
